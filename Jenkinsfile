@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'jenkins//slave' } }
+    agent { docker { image 'jenkins/slave' } }
     stages {
         stage('build') {
             steps {
