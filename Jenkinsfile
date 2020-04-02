@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'codecrunchers/jenkins-node-slave' } }
+    agent { node }
     stages {
         stage('build') {
             steps {
